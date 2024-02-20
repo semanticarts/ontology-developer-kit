@@ -84,8 +84,8 @@ function findJava() {
 
 function findSerializerJar() {
 
-  # DO NOT MODIFY! Only the version of rdf-toolkit.jar found in ${base_dir}/tools/serializer should be used. Mixing versions may create bogus diffs.
-  RDF_TOOLKIT_JAR="$base_dir/tools/serializer/rdf-toolkit.jar"
+  # DO NOT MODIFY! Only the version of rdf-toolkit.jar found in ${base_dir}/ontology-developer-kit/serializer should be used. Mixing versions may create bogus diffs.
+  RDF_TOOLKIT_JAR="$base_dir/ontology-developer-kit/serializer/rdf-toolkit.jar"
 
   if [ -f "${RDF_TOOLKIT_JAR}" ] ; then
   	log "Found rdf-toolkit: ${RDF_TOOLKIT_JAR}"
